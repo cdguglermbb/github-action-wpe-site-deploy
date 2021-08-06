@@ -15,6 +15,14 @@ inputs:
     description: "An optional destination directory to deploy to other than the WordPress root."
     default: ""
     required: false
+  PRD_BRANCH:
+    description: "Prod branch name"
+    default: ""
+    required: true
+  PRD_ENV:
+    description: "Prod env"
+    default: ""
+    required: true
 
 runs:
   using: "docker"
