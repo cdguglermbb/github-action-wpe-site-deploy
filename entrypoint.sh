@@ -44,6 +44,9 @@ else
     SRC_PATH="."
 fi
 
+echo "ENV NAME IS"
+echo "$WPE_ENV_NAME"
+
 # Set up our user and path
 
 WPE_SSH_USER="$WPE_ENV_NAME"@"$WPE_SSH_HOST"
