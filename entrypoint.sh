@@ -44,6 +44,8 @@ else
     SRC_PATH="."
 fi
 
+echo "BRANCH IS:"
+echo "$GITHUB_REF"
 echo "ENV NAME IS"
 echo "$WPE_ENV_NAME"
 
